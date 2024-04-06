@@ -1,0 +1,34 @@
+.side-container{
+  width: 250px;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.active
+{
+  color: #5480F3;
+}
+
+
+@media screen and (max-width:767px) {
+  .nav-content{
+    display: none;
+  }
+
+  .side-container{
+    width: 80px;
+  }
+
+  .side-nav-logo img{
+    width: 50px !important;
+  }
+
+  .side-nav{
+    padding: 8px !important;
+  }
+
+  .log-text{
+    display: none;
+  }
+}

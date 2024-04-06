@@ -1,0 +1,9 @@
+<div class="row gy-5 py-4 px-3">
+  <ng-container *ngFor="let user of usersData">
+    <app-user-card  class="col-md-4 " [user]="user"></app-user-card>
+  </ng-container>
+</div>
+<div class="position-relative">
+  <mat-paginator (page)=" getServerData($event)" [length]="total" [pageSize]="pageSize" aria-label="Select page">
+  </mat-paginator>
+</div>

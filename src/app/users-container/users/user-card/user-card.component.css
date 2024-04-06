@@ -1,0 +1,50 @@
+.inner-card{
+  cursor: pointer;
+}
+
+
+.img{
+  background-color: #5480F3;
+  display: block;
+}
+
+.img img{
+  transform: translatey(30%);
+  -webkit-transform: translatey(30%);
+  -moz-transform: translatey(30%);
+  -ms-transform: translatey(30%);
+  -o-transform: translatey(30%);
+}
+
+
+
+.customShadow{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  animation: upDown 1s linear infinite ;
+  -webkit-animation: upDown 1s linear infinite ;
+}
+
+@keyframes upDown {
+  0%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+  50%{
+    transform: translateY(-20px);
+    -webkit-transform: translateY(-20px);
+    -moz-transform: translateY(-20px);
+    -ms-transform: translateY(-20px);
+    -o-transform: translateY(-20px);
+  }
+
+  100%{
+    transform: translateY(0);
+    -webkit-transform: translateY(0);
+    -moz-transform: translateY(0);
+    -ms-transform: translateY(0);
+    -o-transform: translateY(0);
+  }
+}

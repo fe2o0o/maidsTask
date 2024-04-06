@@ -1,0 +1,10 @@
+@media screen and (max-width:767px)
+{
+  .searchbar{
+    width: 100% !important ;
+  }
+
+  section{
+    padding: 0 !important;
+  }
+}

@@ -1,0 +1,13 @@
+<section class="users ms-auto">
+  <div class="container w-75 py-5">
+    <app-user-card [user]="userData" class="">
+      <h5 class="fs-6 text-dark fw-bold">Email : <span class="text fw-medium">{{userData?.email}}</span></h5>
+    </app-user-card>
+
+    <div class="py-4">
+      <a routerLink="/users" class="btn btn-custom text-white fw-bold" appHover="test">
+        <i class="fa-solid fa-backward"></i>
+        Go Back</a>
+    </div>
+  </div>
+</section>
